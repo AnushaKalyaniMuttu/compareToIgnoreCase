@@ -1,0 +1,12 @@
+package com.employee;
+
+public class Main {
+
+	public static void main(String args[]) {
+	String name="anushe";
+	
+	System.out.println(name.compareToIgnoreCase("anusha"));
+	//compares two string lexicographically , ignoring the case
+	//if two strings are equal irrespective of the case it return 0, if there is a difference a-e  it will return -4 ,if it is e-a it is 4    
+	}
+	}
